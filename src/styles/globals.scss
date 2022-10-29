@@ -3,5 +3,21 @@
   margin: 0;
   padding: 0;
 }
+:root {
+  --background-gray: #1A1D23;
+  --text-white: #F8F8F8;
+  --text-gray-100: #D7D7D7;
+}
 
-// TODO
+body {
+  background-color: var(--background-gray);
+}
+
+main {
+  width: 720px;
+  margin: 0 auto;
+}
+
+.appWidth {
+  width: 720px;
+}

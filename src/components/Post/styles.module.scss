@@ -1,0 +1,47 @@
+.postSpec{
+    display: flex;
+    color: var(--text-gray-100);
+
+    span {
+        display: flex;
+        align-items: center;
+    }
+
+    span + span {
+        margin-left: 20px;
+    }
+
+    p {
+        margin-left: 5px;
+    }
+}
+
+.postPreview {
+    display: flex;
+    flex-direction: column;
+    height: 108px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    
+    h2 { 
+        color: var(--text-white);
+        margin-bottom: 10px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+
+        text-align: justify;
+        letter-spacing: -0.5px;
+    }
+
+    p {
+        color: var(--text-gray-100);
+        margin-bottom: auto;
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
